@@ -7,11 +7,11 @@
 <meta name="description" content="Story Nº1, The Iconic Alpine Road Trip : 4 jours, 1'400 km et 13 cols mythiques en boucle au départ de Genève, du 24 au 27 juin 2027.">
 <meta property="og:title" content="Driving Stories Club · Story Nº1">
 <meta property="og:description" content="Four days. Legendary roads. Stories to remember. Du 24 au 27 juin 2027.">
-<meta property="og:image" content="images/hero.jpg">
+<meta property="og:image" content="hero.jpg">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2212%22 fill=%22%23F2B705%22/><text x=%2250%22 y=%2268%22 font-family=%22Arial%22 font-weight=%22900%22 font-size=%2248%22 text-anchor=%22middle%22 fill=%22%231A1C1E%22>Nº1</text></svg>">
 <style>
-@font-face{font-family:"Archivo"; font-style:normal; font-display:swap; font-weight:100 900; font-stretch:62% 125%; src:url(fonts/archivo-latin-wdth-normal.woff2) format("woff2");}
+@font-face{font-family:"Archivo"; font-style:normal; font-display:swap; font-weight:100 900; font-stretch:62% 125%; src:url(archivo-latin-wdth-normal.woff2) format("woff2");}
 :root{
   --milk:#ECEEEA;      /* glacier milk: fond clair */
   --milk2:#E1E4DF;
@@ -302,8 +302,8 @@ footer{background:var(--night); color:var(--onnight); padding:40px 0 34px; borde
 @keyframes pulse{0%{transform:scale(.6);opacity:.5;}100%{transform:scale(2.6);opacity:0;}}
 .m-car .dot{fill:var(--m-col); stroke:var(--m-halo); stroke-width:2;}
 /* ================= THEMES (comparaison de DA) ================= */
-@font-face{font-family:"Cormorant Garamond"; font-style:normal; font-display:swap; font-weight:300 700; src:url(fonts/cormorant-garamond-latin-wght-normal.woff2) format("woff2");}
-@font-face{font-family:"Cormorant Garamond"; font-style:italic; font-display:swap; font-weight:300 700; src:url(fonts/cormorant-garamond-latin-wght-italic.woff2) format("woff2");}
+@font-face{font-family:"Cormorant Garamond"; font-style:normal; font-display:swap; font-weight:300 700; src:url(cormorant-garamond-latin-wght-normal.woff2) format("woff2");}
+@font-face{font-family:"Cormorant Garamond"; font-style:italic; font-display:swap; font-weight:300 700; src:url(cormorant-garamond-latin-wght-italic.woff2) format("woff2");}
 
 /* groupes typographiques communs */
 /* T = tous les éléments "titrage" du site */
@@ -364,6 +364,8 @@ html.t-gr .pay b{font-size:24px; letter-spacing:.02em;}
 html.t-gr .sky-info .n{font-size:clamp(20px,2.4vw,30px);}
 html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
 
+html.t-gr .convoi{background:#1C1D1F; color:#ECECE8;}
+html.t-gr .convoi p{color:#B5B8BB;}
 </style>
 </head>
 <body>
@@ -400,7 +402,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
     </div>
   </div>
   <figure class="hero-photo" style="margin:0;">
-    <img src="images/hero.jpg" alt="Audi RS4 noire sur les pavés de la Tremola, col du Gothard">
+    <img src="hero.jpg" alt="Audi RS4 noire sur les pavés de la Tremola, col du Gothard">
     <figcaption>La Tremola, col du Gothard</figcaption>
   </figure>
 </header>
@@ -415,7 +417,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
         <p>Driving Stories Club est né d'une idée simple : réunir ceux qui aiment autant conduire que découvrir, partager et prendre le temps de vivre chaque étape.</p>
         <p>Pour cette première édition, cap sur le cœur des Alpes : des cols mythiques, des paysages spectaculaires et un petit convoi de passionnés, avec une seule envie, profiter de chaque virage.</p>
       </div>
-      <div class="frame rv"><img src="images/intro.jpg" alt="Audi RS4 noire dans un lacet de la Tremola" loading="lazy"></div>
+      <div class="frame rv"><img src="intro.jpg" alt="Audi RS4 noire dans un lacet de la Tremola" loading="lazy"></div>
     </div>
     <div class="numbers rv" id="numbers">
       <div><b data-to="4">0</b><span>jours de route</span></div>
@@ -461,7 +463,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
             <div class="no"><i>1</i>Jeudi</div>
             <h3>Genève → Gstaad</h3>
             <div class="tag">Des premiers virages aux sommets alpins</div>
-            <img src="images/ch1.jpg" alt="Les Drus, massif du Mont-Blanc" loading="lazy">
+            <img src="ch1.jpg" alt="Les Drus, massif du Mont-Blanc" loading="lazy">
             <p>Les vieilles pierres d'Annecy dans le rétroviseur, le Mont-Blanc qui domine chaque virage à Chamonix, puis les derniers lacets qui s'ouvrent sur les alpages suisses.</p>
             <div class="chips"><span>Annecy</span><span class="col" data-col="1">Col de la Colombière</span><span>Chamonix</span><span class="col" data-col="2">Col des Montets</span><span class="col" data-col="3">Col de la Croix</span><span class="col" data-col="4">Col du Pillon</span></div>
             <div class="foot"><div>Distance<b>≃ 320 km</b></div><div>Nuit à<b>Gstaad</b></div></div>
@@ -473,7 +475,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
             <div class="no"><i>2</i>Vendredi</div>
             <h3>Gstaad → Bellinzona</h3>
             <div class="tag">Au cœur des cols légendaires</div>
-            <img src="images/ch2.jpg" alt="L'Hôtel Belvédère dans les lacets du col de la Furka" loading="lazy">
+            <img src="ch2.jpg" alt="L'Hôtel Belvédère dans les lacets du col de la Furka" loading="lazy">
             <p>On prend de l'altitude : les falaises de Lauterbrunnen, le Grimsel, la mythique Furka et son hôtel suspendu au-dessus des lacets, puis les pavés de la Tremola qui dévalent vers le Tessin, jusqu'à Bellinzona.</p>
             <div class="chips"><span>Lauterbrunnen</span><span class="col" data-col="5">Col du Grimsel</span><span class="col" data-col="6">Col de la Furka</span><span class="col" data-col="7">Col du Susten</span><span class="col" data-col="8">Tremola</span></div>
             <div class="foot"><div>Distance<b>≃ 350 km</b></div><div>Nuit à<b>Bellinzona</b></div></div>
@@ -485,7 +487,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
             <div class="no"><i>3</i>Samedi</div>
             <h3>Bellinzona → Klosters</h3>
             <div class="tag">Des routes qui semblent ne jamais finir</div>
-            <img src="images/ch3.jpg" alt="Le Lago Bianco et le Lej Nair au col de la Bernina" loading="lazy">
+            <img src="ch3.jpg" alt="Le Lago Bianco et le Lej Nair au col de la Bernina" loading="lazy">
             <p>Le San Bernardino ouvre la voie des Grisons, les courbes de l'Albula mènent à St-Moritz, puis la Bernina et ses eaux turquoise, une escapade en Italie et un dernier col pour finir en beauté.</p>
             <div class="chips"><span class="col" data-col="9">San Bernardino</span><span class="col" data-col="10">Col de l'Albula</span><span>St-Moritz</span><span class="col" data-col="11">Col de la Bernina</span><span>Livigno</span><span class="col" data-col="12">Col de la Flüela</span></div>
             <div class="foot"><div>Distance<b>≃ 270 km</b></div><div>Nuit à<b>Klosters</b></div></div>
@@ -497,7 +499,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
             <div class="no"><i>4</i>Dimanche</div>
             <h3>Klosters → Lavaux</h3>
             <div class="tag">La dernière ligne droite</div>
-            <img src="images/ch4.jpg" alt="Les vignobles en terrasse du Lavaux au-dessus du Léman" loading="lazy">
+            <img src="ch4.jpg" alt="Les vignobles en terrasse du Lavaux au-dessus du Léman" loading="lazy">
             <p>Une baignade dans les eaux turquoise du Walensee, puis cap à l'ouest jusqu'aux vignobles en terrasse du Lavaux, classés à l'UNESCO, face au Léman.</p>
             <div class="chips"><span>Walensee</span><span>Lavaux</span><span>Lac Léman</span></div>
             <div class="foot"><div>Distance<b>≃ 470 km</b></div><div>Grand final<b>Lavaux</b></div></div>
@@ -509,7 +511,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
             <div class="no">Le grand final</div>
             <h3>Dans les vignes du Lavaux</h3>
             <div class="tag">Dimanche après-midi, face au Léman.</div>
-            <img src="images/final.jpg" alt="Terrasse au-dessus du Léman dans le Lavaux" loading="lazy">
+            <img src="final.jpg" alt="Terrasse au-dessus du Léman dans le Lavaux" loading="lazy">
             <p>Remise des prix, un dernier verre en terrasse au-dessus des vignes et la promesse de se retrouver sur de nouvelles routes. Ensuite, retour libre vers Genève pour boucler la boucle.</p>
             <a href="#inscription" class="btn" style="margin-top:4px;">Je veux en être</a>
           </div>
@@ -521,7 +523,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
 
 <!-- DIVIDER -->
 <div class="divider" id="divider">
-  <img src="images/divider.jpg" alt="Lacets d'un col alpin vus d'en haut" loading="lazy">
+  <img src="divider.jpg" alt="Lacets d'un col alpin vus d'en haut" loading="lazy">
   <blockquote><p>Les meilleures routes ne sont pas celles qui font gagner du temps, mais celles qui nous le font oublier.</p></blockquote>
 </div>
 
@@ -546,32 +548,32 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
     <div class="gal-nav"><button id="galPrev" aria-label="Photo précédente">‹</button><button id="galNext" aria-label="Photo suivante">›</button></div>
   </div>
   <div class="gal" id="gal">
-    <figure><img src="images/p-01.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-02.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-03.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-04.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-05.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-06.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-07.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-08.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-09.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-10.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-11.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-12.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-13.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-14.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-15.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-16.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-17.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-18.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-19.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-20.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-21.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-22.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-23.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-24.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-25.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
-    <figure><img src="images/p-26.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-01.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-02.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-03.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-04.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-05.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-06.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-07.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-08.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-09.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-10.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-11.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-12.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-13.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-14.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-15.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-16.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-17.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-18.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-19.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-20.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-21.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-22.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-23.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-24.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-25.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
+    <figure><img src="p-26.jpg" alt="Sur les routes des Alpes" loading="lazy"></figure>
   </div>
   <div class="wrap"><div class="gal-bar"><i id="galBar"></i></div></div>
 </section>
@@ -582,18 +584,18 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
     <h2 class="display rv">Au-delà de la route</h2>
     <div class="exp-grid">
       <article class="exp rv">
-        <img src="images/nuits.jpg" alt="Lecture au lit dans une chambre d'hôtel en bois à Gstaad" loading="lazy">
+        <img src="nuits.jpg" alt="Lecture au lit dans une chambre d'hôtel en bois à Gstaad" loading="lazy">
         <h3>Trois nuits d'étape</h3>
         <div class="stars" aria-label="Hôtels 3 étoiles ou plus"><svg viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.4L12 17.8 5.4 21.8l1.8-7.4L1.5 9.5 9 8.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.4L12 17.8 5.4 21.8l1.8-7.4L1.5 9.5 9 8.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.4L12 17.8 5.4 21.8l1.8-7.4L1.5 9.5 9 8.9z"/></svg></div>
         <p>Des hôtels 3 étoiles ou mieux, des adresses choisies avec soin à Gstaad, Bellinzona et Klosters. Chaque soir, le convoi se retrouve sous le même toit.</p>
       </article>
       <article class="exp rv">
-        <img src="images/table.jpg" alt="Table dressée dans une salle à manger en bois" loading="lazy">
+        <img src="table.jpg" alt="Table dressée dans une salle à manger en bois" loading="lazy">
         <h3>La table</h3>
         <p>Petits-déjeuners et dîners dans nos hôtels d'étape, pour des soirées partagées. À midi, liberté totale : on s'arrête où la route nous inspire.</p>
       </article>
       <article class="exp rv">
-        <img src="images/soirees.jpg" alt="Soirée en smoking, en noir et blanc" loading="lazy">
+        <img src="soirees.jpg" alt="Soirée en smoking, en noir et blanc" loading="lazy">
         <h3>Activités et surprises</h3>
         <ul>
           <li><b>James Bond Night.</b> Le deuxième soir, on troque les tenues de conduite contre une touche d'élégance.</li>
@@ -607,7 +609,7 @@ html.t-gr .foot-end .display{font-size:clamp(32px,5.4vw,80px);}
 
 <!-- CONVOI -->
 <div class="convoi">
-  <div class="ph"><img src="images/convoi.jpg" alt="BMW Z3 et Jaguar XK sur une route panoramique" loading="lazy"></div>
+  <div class="ph"><img src="convoi.jpg" alt="BMW Z3 et Jaguar XK sur une route panoramique" loading="lazy"></div>
   <div class="tx rv">
     <h2 class="display">Le choix de votre histoire</h2>
     <p>Ce qui compte avant tout, c'est le plaisir de conduire. Sur 1'400 km, vous alternerez petites routes de montagne exigeantes et liaisons plus roulantes : GT confortable ou sportive radicale, à vous de choisir quelle histoire vous voulez écrire.</p>
